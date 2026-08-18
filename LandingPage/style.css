@@ -1,0 +1,38 @@
+/* ============================================================
+   AXFORM — Real-time AI GYM Trainer
+   style.css
+   ============================================================ */
+
+/* ── TOKENS ── */
+:root {
+  --bg:        #3a074f;
+  --surface:   #111111;
+  --border:    rgba(255,255,255,0.07);
+  --amber:     #f5a623;
+  --amber-dim: #b97a18;
+  --amber-glow:rgba(245,166,35,0.18);
+  --cyan:      #00d4ff;
+  --cyan-glow: rgba(0,212,255,0.15);
+  --text:      #e8e8e8;
+  --muted:     #666;
+  --font-display: 'Instrument Serif', serif;
+  --font-body:    'Ubuntu', monospace;
+  --font-body:    'Averta', sans-serif;
+  --radius:    0px;
+  --max-w:     1200px;
+}
+
+/* ── RESET ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+a { color: inherit; text-decoration: none; }
+img { display: block; width: 100%; height: 100%; object-fit: contain; }
+
