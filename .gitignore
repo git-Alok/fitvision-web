@@ -15,3 +15,7 @@ Main App/data.db
 
 # Logs
 *.log
+
+
+*.mp4
+LandingPage/vedio/
